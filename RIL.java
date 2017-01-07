@@ -1995,8 +1995,7 @@ public class RIL extends BaseCommands implements CommandsInterface {
         send(rr);
     }
 
-    protected void
-    onRadioAvailable() {
+    protected void onRadioAvailable() {
         // In case screen state was lost (due to process crash),
         // this ensures that the RIL knows the correct screen state.
 
